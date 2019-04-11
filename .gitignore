@@ -1,3 +1,10 @@
+# Directories & Elpa repo ignore
+auto-save-list/
+elpa/
+
+# Generate files
+bm-repository
+
 # Compiled
 *.elc
 
