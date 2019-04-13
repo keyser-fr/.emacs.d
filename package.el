@@ -4,8 +4,6 @@
 
 ;; package.el --- Package configuration
 
-;; https://melpa.org/#/getting-started
-
 ;;; Code:
 
 (require 'package)

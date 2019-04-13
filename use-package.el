@@ -4,9 +4,6 @@
 
 ;; use-package.el --- Emacs use-package configuration
 
-;; https://jwiegley.github.io/use-package
-;; https://github.com/jwiegley/use-package
-
 ;;; Code:
 
 (setq use-package-always-ensure t) ; always set ":ensure t"

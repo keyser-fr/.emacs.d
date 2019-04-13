@@ -4,10 +4,14 @@
 
 ;; init.el --- Emacs configuration
 
-;; https://realpython.com/blog/python/emacs-the-best-python-editor/
-;; https://lupan.pl/dotemacs/
-
 ;;; Code:
+
+;; This snippet loads all *.el files in a directory.
+(defun load-directory (dir)
+  (let ((load-it (lambda (f)
+		   (load-file (concat (file-name-as-directory dir) f)))
+		 ))
+    (mapc load-it (directory-files dir nil "\\.el$"))))
 
 ;; Customize handler
 (setq custom-file "~/.emacs.d/custom.el")
