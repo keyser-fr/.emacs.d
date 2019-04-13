@@ -20,7 +20,9 @@ M-x customize-...
 
 # Packages
 
+* [ELPA](https://elpa.gnu.org "ELPA")
 * [MELPA](https://melpa.org "MELPA")
+* [MARMELADE](https://marmalade-repo.org/packages "MARMELADE")
 
 ```lisp
 M-x package-initialize
@@ -47,3 +49,15 @@ M-x list-packages
 
 * [Python configuration](https://realpython.com/blog/python/emacs-the-best-python-editor "Python configuration")
 * [Emacs configuration sample #1](https://lupan.pl/dotemacs "Emacs configuration sample #1")
+* [Awesome Emacs](https://github.com/emacs-tw/awesome-emacs "Awesome Emacs")
+
+# To see
+
+## Packages
+
+* org-mode
+* IDO #Interface Enhancement
+* smex #Interface Enhancement
+* Yasnippet #Programming
+* projectile #Project management
+* company #Completion
