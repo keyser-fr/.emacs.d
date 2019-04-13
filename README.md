@@ -1,13 +1,13 @@
 <!-- TOC depthFrom:2 -->
 
 # Table of Contents
-- [1. Installation](#1-installation)
-- [2. Customize](#2-customize)
-- [3. Packages](#3-packages)
-- [4. use-package](#4-use-package)
-- [5. Links](#5-links)
-- [6. To See](#6-to-see)
-  - [6.1. Packages](#61-to-see_packages)
+- [1. Installation](#installation)
+- [2. Customize](#customize)
+- [3. Packages](#packages)
+- [4. use-package](#use-package)
+- [5. Links](#links)
+- [6. To See](#to-see)
+  - [6.1. Packages](#to-see_packages)
 
 <!-- /TOC -->
 
