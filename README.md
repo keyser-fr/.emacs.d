@@ -1,13 +1,17 @@
-# Table of Contents
-1) [Installation](#installation)
-2) [Customize](#customize)
-3) [Packages](#packages)
-4) [use-package](#use-package)
-5) [Links](#links)
-6) [To See](#to-see)
-    6.1) [Packages](#to-see_packages)
+<!-- TOC depthFrom:2 -->
 
-## Installation <a name="installation"></a>
+# Table of Contents
+- [1. Installation](#1-installation)
+- [2. Customize](#2-customize)
+- [3. Packages](#3-packages)
+- [4. use-package](#4-use-package)
+- [5. Links](#5-links)
+- [6. To See](#6-to-see)
+  - [6.1. Packages](#61-to-see_packages)
+
+<!-- /TOC -->
+
+## 1. Installation <a name="installation"></a>
 
 * [Installation with PPA](https://www.reddit.com/r/emacs/comments/8pcw5a/what_is_the_most_painless_way_to_install_emacs_26 "Installation with PPA")
 * [kelleyk's PPA](https://launchpad.net/~kelleyk/+archive/ubuntu/emacs "kelleyk's PPA")
@@ -18,7 +22,7 @@ sudo apt-get update
 sudo apt install emacs26
 ```
 
-## Customize <a name="customize"></a>
+## 2. Customize <a name="customize"></a>
 
 ```lisp
 M-x customize
@@ -27,7 +31,7 @@ M-x customize-themes
 M-x customize-...
 ```
 
-## Packages <a name="packages"></a>
+## 3. Packages <a name="packages"></a>
 
 * [ELPA](https://elpa.gnu.org "ELPA")
 * [MELPA](https://melpa.org "MELPA")
@@ -39,7 +43,7 @@ M-x package-refresh-contents
 M-x list-packages
 ```
 
-## use-package <a name="use-package"></a>
+## 4. use-package <a name="use-package"></a>
 
 * [Use-package project](https://jwiegley.github.io/use-package "Use-package project")
 * [Use-package Github](https://github.com/jwiegley/use-package "Use-package Github")
@@ -54,15 +58,15 @@ M-x list-packages
 )
 ```
 
-## Links <a name="links"></a>
+## 5. Links <a name="links"></a>
 
 * [Python configuration](https://realpython.com/blog/python/emacs-the-best-python-editor "Python configuration")
 * [Emacs configuration sample #1](https://lupan.pl/dotemacs "Emacs configuration sample #1")
 * [Awesome Emacs](https://github.com/emacs-tw/awesome-emacs "Awesome Emacs")
 
-## To see <a name="to-see"></a>
+## 6. To see <a name="to-see"></a>
 
-### Packages <a name="to-see_packages"></a>
+### 6.1. Packages <a name="to-see_packages"></a>
 
 * org-mode
 * IDO #Interface Enhancement
