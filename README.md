@@ -5,7 +5,7 @@
 4) [use-package](#use-package)
 5) [Links](#links)
 6) [To See](#to-see)
-  6.1) [Packages](#to-see_packages)
+    6.1) [Packages](#to-see_packages)
 
 ## Installation <a name="installation"></a>
 
