@@ -60,9 +60,10 @@ M-x list-packages
 
 ## 5. Links <a name="links"></a>
 
+* [Awesome Emacs](https://github.com/emacs-tw/awesome-emacs "Awesome Emacs")
+* [Ladicle's Emacs Configuration](https://ladicle.com/post/config "Ladicle's Emacs Configuration")
 * [Python configuration](https://realpython.com/blog/python/emacs-the-best-python-editor "Python configuration")
 * [Emacs configuration sample #1](https://lupan.pl/dotemacs "Emacs configuration sample #1")
-* [Awesome Emacs](https://github.com/emacs-tw/awesome-emacs "Awesome Emacs")
 
 ## 6. To see <a name="to-see"></a>
 
@@ -75,3 +76,4 @@ M-x list-packages
 * projectile #Project management
 * company #Completion
 * treemacs #File Manager
+* undo-tree #Visual
