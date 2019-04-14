@@ -74,3 +74,4 @@ M-x list-packages
 * Yasnippet #Programming
 * projectile #Project management
 * company #Completion
+* treemacs #File Manager
