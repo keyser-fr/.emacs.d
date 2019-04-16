@@ -72,4 +72,22 @@ M-x list-packages
 
 ### 6.1. Packages <a name="to-see_packages"></a>
 
-* [Org-mode](https://www.orgmode.org/fr/index.html "Org-mode")
+#### Manuals
+	* [Manual #1](http://www.linux-france.org/~pmartin/article/appli/emacs/manuel/html/index.html "Manual #1")
+
+#### Cheat Sheets
+	* [Cheat Sheet #1](https://ccrma.stanford.edu/guides/package/emacs/emacs.html "Cheat Sheet #1")
+	* [Cheat Sheet #2](https://courses.cs.washington.edu/courses/cse351/16wi/sections/1/Cheatsheet-emacs.pdf "Cheat Sheet #2")
+	* [Cheat Sheet #3](https://lea-linux.org/documentations/Software-soft_edit-emacs "Cheat Sheet #3")
+
+#### Themes
+	* [Themes #1](https://pawelbx.github.io/emacs-theme-gallery "Themes #1")
+	* [Themes #1](https://peach-melpa.org "Themes #2")
+
+#### Eshell
+	* [GNU Emacs Eshell](https://www.gnu.org/software/emacs/manual/html_mono/eshell.html "GNU Emacs Eshell")
+	* [Mastering Eshell](https://www.masteringemacs.org/article/complete-guide-mastering-eshell "Mastering Eshell")
+
+#### Modes
+	* [Org-mode](https://www.orgmode.org/fr/index.html "Org-mode")
+	* [Org-mode explain](https://linuxfr.org/news/org-mode-1-5-gerer-ses-notes-avec-gnu-emacs "Org-mode explain")
