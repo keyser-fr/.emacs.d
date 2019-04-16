@@ -1,8 +1,8 @@
-;;; multiple-cursors --- Summary
+;;; setup-multiple-cursors --- Summary
 
 ;;; Commentary:
 
-;; multiple-cursors.el --- Multiple-Cursors package
+;; setup-multiple-cursors.el --- Setup Multiple-Cursors package
 
 ;;; Code:
 
@@ -17,6 +17,6 @@
     (global-set-key (kbd "M-<") 'mc/unmark-previous-like-this)
     (global-set-key (kbd "C-S-<mouse-1>") 'mc/add-cursor-on-click)))
 
-(provide 'multiple-cursors)
+(provide 'setup-multiple-cursors)
 
-;;; multiple-cursors.el ends here
+;;; setup-multiple-cursors.el ends here

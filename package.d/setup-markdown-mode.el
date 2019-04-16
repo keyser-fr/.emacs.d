@@ -1,8 +1,8 @@
-;;; markdown-mode --- Summary
+;;; setup-markdown-mode --- Summary
 
 ;;; Commentary:
 
-;; markdown-mode.el --- Markdown-Mode package
+;; setup-markdown-mode.el --- Setup Markdown-Mode package
 
 ;;; Code:
 
@@ -26,6 +26,6 @@
    ("\\.md$" . markdown-mode))
   )
 
-(provide 'markdown-mode)
+(provide 'setup-markdown-mode)
 
-;;; markdown-mode.el ends here
+;;; setup-markdown-mode.el ends here

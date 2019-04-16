@@ -1,8 +1,8 @@
-;;; helm --- Summary
+;;; setup-helm --- Summary
 
 ;;; Commentary:
 
-;; helm.el --- helm package
+;; setup-helm.el --- Setup helm package
 
 ;;; Code:
 
@@ -54,6 +54,6 @@
   :bind
   (("C-c y" . helm-yas-complete)))
 
-(provide 'helm)
+(provide 'setup-helm)
 
-;;; helm.el ends here
+;;; setup-helm.el ends here

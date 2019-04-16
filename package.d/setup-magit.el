@@ -1,14 +1,10 @@
-;;; magit --- Summary
+;;; setup-magit --- Summary
 
 ;;; Commentary:
 
-;; magit.el --- Magit package
+;; setup-magit.el --- Setup Magit package
 
 ;;; Code:
-
-;; (use-package magit
-;;   :commands (magit-status)
-;;   :bind (("C-x g" . magit-status)))
 
 (use-package magit
   :commands magit-get-top-dir
@@ -16,6 +12,6 @@
          ("C-c C-g l" . magit-file-log)
          ("C-c f" . magit-grep)))
 
-(provide 'magit)
+(provide 'setup-magit)
 
-;;; magit.el ends here
+;;; setup-magit.el ends here

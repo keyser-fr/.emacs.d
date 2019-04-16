@@ -1,8 +1,8 @@
-;;; bm --- Summary
+;;; setup-bm --- Summary
 
 ;;; Commentary:
 
-;; bm.el --- bm configuration
+;; setup-bm.el --- Setup bm configuration
 
 ;;; Code:
 
@@ -60,6 +60,6 @@
          ("C-<f2>" . bm-toggle))
   )
 
-(provide 'bm)
+(provide 'setup-bm)
 
-;;; bm.el ends here
+;;; setup-bm.el ends here

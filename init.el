@@ -8,6 +8,7 @@
 
 ;; Snippets
 (load "~/.emacs.d/snippets/load-directory")
+(load-directory "~/.emacs.d/snippets/snippets.d/")
 
 ;; Customize handler
 (setq custom-file "~/.emacs.d/custom.el")

@@ -1,10 +1,10 @@
-;;; python --- Summary
+;;; setup-python --- Summary
 
 ;;; Commentary:
 
 ;; http://rakan.me/emacs/python-dev-with-emacs-and-pyenv/
 
-;; python.el --- Python package
+;; setup-python.el --- Setup Python package
 
 ;;; Code:
 
@@ -71,6 +71,6 @@
   :bind (:map elpy-mode-map ([remap elpy-goto-definition] .
                              ha/elpy-goto-definition)))
 
-(provide 'python)
+(provide 'setup-python)
 
-;;; python.el ends here
+;;; setup-python.el ends here

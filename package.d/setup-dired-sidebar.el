@@ -1,10 +1,16 @@
-;;; dired-sidebar --- Summary
+;;; setup-dired-sidebar --- Summary
 
 ;;; Commentary:
 
-;; dired-sidebar.el --- Dired-Sidebar package
+;; setup-dired-sidebar.el --- Setup Dired-Sidebar package
 
 ;;; Code:
+
+;; Hack for icons size
+;; rename elpa/vscode-icon/icons/128 directory to 128.bak + create symlink
+;; cd elpa/vscode-icon-<revision>/icons/
+;; cp 128 128.bak
+;; ln -s 23 128
 
 (use-package vscode-icon
   :commands (vscode-icon-for-file))
@@ -38,6 +44,6 @@
   (dired-sidebar-toggle-sidebar)
   (ibuffer-sidebar-toggle-sidebar))
 
-(provide 'dired-sidebar)
+(provide 'setup-dired-sidebar)
 
-;;; dired-sidebar.el ends here
+;;; setup-dired-sidebar.el ends here

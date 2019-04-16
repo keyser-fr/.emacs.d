@@ -1,8 +1,8 @@
-;;; diff-hl --- Summary
+;;; setup-diff-hl --- Summary
 
 ;;; Commentary:
 
-;; diff-hl.el --- Template package
+;; setup-diff-hl.el --- Setup diff-hl package
 
 ;;; Code:
 
@@ -25,6 +25,6 @@
   (setq diff-hl-margin-side 'right)
   )
 
-(provide 'diff-hl)
+(provide 'setup-diff-hl)
 
-;;; diff-hl.el ends here
+;;; setup-diff-hl.el ends here

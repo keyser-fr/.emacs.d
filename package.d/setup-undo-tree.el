@@ -1,8 +1,8 @@
-;;; undo-tree --- Summary
+;;; setup-undo-tree --- Summary
 
 ;;; Commentary:
 
-;; undo-tree.el --- Undo-Tree package
+;; setup-undo-tree.el --- Setup Undo-Tree package
 
 ;;; Code:
 
@@ -13,6 +13,6 @@
   (setq undo-tree-visualizer-timestamps t)
   (setq undo-tree-visualizer-diff t))
 
-(provide 'undo-tree)
+(provide 'setup-undo-tree)
 
-;;; undo-tree.el ends here
+;;; setup-undo-tree.el ends here

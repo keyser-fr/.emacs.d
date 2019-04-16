@@ -1,10 +1,3 @@
-# Directories & Elpa repo ignore
-auto-save-list/
-elpa/
-
-# Generate files
-bm-repository
-
 # Compiled
 *.elc
 
@@ -13,6 +6,17 @@ bm-repository
 
 # Backup files
 *~
+
+# Directories & Elpa repo ignore
+auto-save-list/
+elpa/
+.cache/
+
+# Generated files
+bm-repository
+projectile-bookmarks.eld
+recentf
+smex-items
 
 # Undo-tree save-files
 *.~undo-tree

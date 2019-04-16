@@ -1,8 +1,8 @@
-;;; spaceline --- Summary
+;;; setup-spaceline --- Summary
 
 ;;; Commentary:
 
-;; spaceline.el --- Spaceline package
+;; setup-spaceline.el --- Setup Spaceline package
 
 ;;; Code:
 
@@ -34,6 +34,6 @@
  spaceline-separator-dir-left '(right . right)
  spaceline-separator-dir-right '(left . left))
 
-(provide 'spaceline)
+(provide 'setup-spaceline)
 
-;;; spaceline.el ends here
+;;; setup-spaceline.el ends here

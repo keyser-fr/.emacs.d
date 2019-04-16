@@ -1,8 +1,8 @@
-;;; smartparens --- Summary
+;;; setup-smartparens --- Summary
 
 ;;; Commentary:
 
-;; smartparens.el --- Smartparens package
+;; setup-smartparens.el --- Setup Smartparens package
 
 ;;; Code:
 
@@ -16,6 +16,6 @@
   ;; Activate smartparens in minibuffer
   (add-hook 'eval-expression-minibuffer-setup-hook #'smartparens-mode))
 
-(provide 'smartparens)
+(provide 'setup-smartparens)
 
-;;; smartparens.el ends here
+;;; setup-smartparens.el ends here

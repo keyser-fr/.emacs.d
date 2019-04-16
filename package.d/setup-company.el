@@ -1,8 +1,8 @@
-;;; company --- Summary
+;;; setup-company --- Summary
 
 ;;; Commentary:
 
-;; company.el --- Company package
+;; setup-company.el --- Setup Company package
 
 ;;; Code:
 
@@ -21,6 +21,6 @@
     (setq company-dabbrev-downcase nil))
   :diminish company-mode)
 
-(provide 'company)
+(provide 'setup-company)
 
-;;; company.el ends here
+;;; setup-company.el ends here
