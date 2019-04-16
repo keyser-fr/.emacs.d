@@ -8,6 +8,7 @@
 - [5. Links](#links)
 - [6. To See](#to-see)
   - [6.1. Packages](#to-see_packages)
+- [7. Tips](#tips)
 
 <!-- /TOC -->
 
