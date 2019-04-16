@@ -70,10 +70,3 @@ M-x list-packages
 ### 6.1. Packages <a name="to-see_packages"></a>
 
 * org-mode
-* IDO #Interface Enhancement
-* smex #Interface Enhancement
-* Yasnippet #Programming
-* projectile #Project management
-* company #Completion
-* treemacs #File Manager
-* undo-tree #Visual
