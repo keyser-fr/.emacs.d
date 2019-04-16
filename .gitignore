@@ -8,9 +8,10 @@
 *~
 
 # Ignore generated directories
+.cache/
 auto-save-list/
 elpa/
-.cache/
+eshell/
 transient/
 
 # Ignore generated files
