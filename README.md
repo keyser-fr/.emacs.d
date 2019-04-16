@@ -66,6 +66,7 @@ M-x list-packages
 * [Lupan emacs configuration](https://lupan.pl/dotemacs "Lupan emacs configuration")
 * [Cocreature emacs configuration](https://github.com/cocreature/dotfiles/blob/master/emacs/.emacs.d/emacs.org "Cocreature emacs configuration")
 * [Arecker emacs configuration](https://github.com/arecker/emacs.d "Arecker emacs configuration")
+* [Stefano-m emacs configuration](https://notabug.org/stefano-m/.emacs.d "Stefano-m emacs configuration")
 
 ## 6. To see <a name="to-see"></a>
 
