@@ -54,6 +54,38 @@
   :bind
   (("C-c y" . helm-yas-complete)))
 
+(use-package helm-tramp
+  :if (display-graphic-p)
+  :defer t)
+
+(use-package helm-projectile
+  :ensure t
+  :if (display-graphic-p)
+  :bind* (("C-c p D" . projectile-dired)
+          ("C-c p v" . projectile-vc)
+          ("C-c p k" . projectile-kill-buffers)
+
+          ("C-c p p" . helm-projectile-switch-project)
+          ("C-c p f" . helm-projectile-find-file)
+          ("C-c p F" . helm-projectile-find-file-in-known-projects)
+          ("C-c p g" . helm-projectile-find-file-dwin)
+          ("C-c p d" . helm-projectile-find-dir)
+          ("C-c p C-r" . helm-projectile-recentf)
+          ("C-c p b" . helm-projectile-switch-to-buffer)
+          ("C-c p s s" . helm-projectile-ag)
+          ("C-c p s g" . helm-projectile-grep)
+          )
+  :diminish projectile-mode
+  :init
+  (setq projectile-keymap-prefix (kbd "C-c p")
+        projectile-enable-caching t
+        projectile-indexing-method 'alien
+        projectile-completion-system 'helm
+        projectile-mode-line '(:eval (format " {%s}" (projectile-project-name))))
+  :config
+  (projectile-global-mode)
+  (helm-projectile-on))
+
 (provide 'setup-helm)
 
 ;;; setup-helm.el ends here
