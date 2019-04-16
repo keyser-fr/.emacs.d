@@ -87,6 +87,10 @@ M-x list-packages
 * [Themes #1](https://pawelbx.github.io/emacs-theme-gallery "Themes #1")
 * [Themes #1](https://peach-melpa.org "Themes #2")
 
+#### Customize
+
+* [Slemaguer emacs configuration](http://www.coli.uni-saarland.de/~slemaguer/emacs/main.html "Slemaguer emacs configuration")
+
 #### Eshell
 
 * [GNU Emacs Eshell](https://www.gnu.org/software/emacs/manual/html_mono/eshell.html "GNU Emacs Eshell")
@@ -96,3 +100,17 @@ M-x list-packages
 
 * [Org-mode](https://www.orgmode.org/fr/index.html "Org-mode")
 * [Org-mode explain](https://linuxfr.org/news/org-mode-1-5-gerer-ses-notes-avec-gnu-emacs "Org-mode explain")
+
+## 7. Tips <a name="tips"></a>
+
+### Disabled all packages
+
+``` bash
+for file in package.d/setup-*.el; do mv ${file} ${file}.dis; done
+```
+
+### Enabled all packages
+
+``` bash
+for file in package.d/setup-*.el.dis; do mv ${file} ${file%.dis}; done
+```
