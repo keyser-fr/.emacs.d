@@ -63,7 +63,8 @@ M-x list-packages
 * [Awesome Emacs](https://github.com/emacs-tw/awesome-emacs "Awesome Emacs")
 * [Ladicle's Emacs Configuration](https://ladicle.com/post/config "Ladicle's Emacs Configuration")
 * [Python configuration](https://realpython.com/blog/python/emacs-the-best-python-editor "Python configuration")
-* [Emacs configuration sample #1](https://lupan.pl/dotemacs "Emacs configuration sample #1")
+* [Lupan emacs configuration](https://lupan.pl/dotemacs "Lupan emacs configuration")
+* [Cocreature emacs configuration](https://github.com/cocreature/dotfiles/blob/master/emacs/.emacs.d/emacs.org "Cocreature emacs configuration")
 
 ## 6. To see <a name="to-see"></a>
 
