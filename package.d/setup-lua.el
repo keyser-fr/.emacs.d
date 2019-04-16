@@ -6,7 +6,9 @@
 
 ;;; Code:
 
-(use-package lua-mode)
+(use-package lua-mode
+  :defer t
+  :mode ("\\.lua\\'" "\\.p8\\'"))
 
 (provide 'setup-lua)
 

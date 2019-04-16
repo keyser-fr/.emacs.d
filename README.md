@@ -65,9 +65,10 @@ M-x list-packages
 * [Python configuration](https://realpython.com/blog/python/emacs-the-best-python-editor "Python configuration")
 * [Lupan emacs configuration](https://lupan.pl/dotemacs "Lupan emacs configuration")
 * [Cocreature emacs configuration](https://github.com/cocreature/dotfiles/blob/master/emacs/.emacs.d/emacs.org "Cocreature emacs configuration")
+* [Arecker emacs configuration](https://github.com/arecker/emacs.d "Arecker emacs configuration")
 
 ## 6. To see <a name="to-see"></a>
 
 ### 6.1. Packages <a name="to-see_packages"></a>
 
-* org-mode
+* [Org-mode](https://www.orgmode.org/fr/index.html "Org-mode")

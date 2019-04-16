@@ -34,7 +34,8 @@
   (use-package anaconda-mode
     :bind ("C-c C-d" . anaconda-mode-show-doc)
     :config
-    (setq python-shell-interpreter "ipython"))
+    (setq python-shell-interpreter "ipython"
+	  python-shell-interpreter-args "-i --simple-prompt"))
 
   (use-package company-anaconda
     :init
@@ -70,6 +71,8 @@
 
   :bind (:map elpy-mode-map ([remap elpy-goto-definition] .
                              ha/elpy-goto-definition)))
+
+(use-package virtualenvwrapper)
 
 (provide 'setup-python)
 
