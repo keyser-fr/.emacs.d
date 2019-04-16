@@ -7,16 +7,18 @@
 # Backup files
 *~
 
-# Directories & Elpa repo ignore
+# Ignore generated directories
 auto-save-list/
 elpa/
 .cache/
+transient/
 
-# Generated files
+# Ignore generated files
 bm-repository
 projectile-bookmarks.eld
 recentf
 smex-items
+tramp
 
 # Undo-tree save-files
 *.~undo-tree
