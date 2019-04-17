@@ -73,10 +73,12 @@
   ;; Disabled Segments
   (spaceline-toggle-all-the-icons-bookmark-off)
   (spaceline-toggle-all-the-icons-dedicated-off)
-  (spaceline-toggle-all-the-icons-fullscreen-on)
-  (spaceline-toggle-all-the-icons-buffer-position-on)
-  (spaceline-toggle-all-the-icons-narrowed-on)
+  (spaceline-toggle-all-the-icons-fullscreen-off)
   (spaceline-toggle-all-the-icons-package-updates-off)
+  (spaceline-toggle-all-the-icons-buffer-position-on)
+
+  ;; Enabled Segments
+  (spaceline-toggle-all-the-icons-narrowed-on)
   (spaceline-toggle-all-the-icons-flycheck-status-on)
   (spaceline-toggle-all-the-icons-git-status-on)
   (spaceline-toggle-all-the-icons-vc-icon-on)
