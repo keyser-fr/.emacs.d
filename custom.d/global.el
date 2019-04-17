@@ -11,7 +11,8 @@
 (global-font-lock-mode t) ;; enable syntaxic color
 (global-hl-line-mode) ;; highlight current line
 (display-time-mode t) ;; time
-(set-language-environment "UTF-8") ;; environnement
+(set-language-environment "UTF-8") ;; language environnement encoding
+(set-default-coding-systems 'utf-8) ;; coding system encoding
 ;; (menu-bar-mode -1) ;; deactivate menubar
 ;; (tool-bar-mode -1) ;; deactivate toolbar
 ;; (scroll-bar-mode -1) ;; deactivate scrollbar

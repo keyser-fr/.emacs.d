@@ -5,10 +5,11 @@
 - [2. Customize](#customize)
 - [3. Packages](#packages)
 - [4. use-package](#use-package)
-- [5. Links](#links)
-- [6. To See](#to-see)
-  - [6.1. Packages](#to-see_packages)
-- [7. Tips](#tips)
+- [5. Eshell](#eshell)
+- [6. Links](#links)
+- [7. To See](#to-see)
+  - [7.1. Packages](#to-see_packages)
+- [8. Tips](#tips)
 
 <!-- /TOC -->
 
@@ -69,9 +70,20 @@ M-x list-packages
 * [Arecker emacs configuration](https://github.com/arecker/emacs.d "Arecker emacs configuration")
 * [Stefano-m emacs configuration](https://notabug.org/stefano-m/.emacs.d "Stefano-m emacs configuration")
 
-## 6. To see <a name="to-see"></a>
+## 6. Eshell <a name="eshell"></a>
 
-### 6.1. Packages <a name="to-see_packages"></a>
+- [Eshell](https://github.com/howardabrams/dot-files/blob/master/emacs-eshell.org "Eshell")
+
+- Use Tramp with eshell
+
+```lisp
+M-x eshell
+cd /ssh:<remote_host>:<path> [RET]
+```
+
+## 7. To see <a name="to-see"></a>
+
+### 7.1. Packages <a name="to-see_packages"></a>
 
 #### Manuals
 
@@ -102,16 +114,16 @@ M-x list-packages
 * [Org-mode](https://www.orgmode.org/fr/index.html "Org-mode")
 * [Org-mode explain](https://linuxfr.org/news/org-mode-1-5-gerer-ses-notes-avec-gnu-emacs "Org-mode explain")
 
-## 7. Tips <a name="tips"></a>
+## 8. Tips <a name="tips"></a>
 
 ### Disabled all packages
 
 ``` bash
-for file in package.d/setup-*.el; do mv ${file} ${file}.dis; done
+for file in ~/.emacs.d/package.d/setup-*.el; do mv ${file} ${file}.dis; done
 ```
 
 ### Enabled all packages
 
 ``` bash
-for file in package.d/setup-*.el.dis; do mv ${file} ${file%.dis}; done
+for file in ~/.emacs.d/package.d/setup-*.el.dis; do mv ${file} ${file%.dis}; done
 ```
