@@ -9,8 +9,8 @@
 ;; Installing fonts
 ;; M-x all-the-icons-install-fonts
 
-(use-package all-the-icons
-  :defer 2)
+(use-package all-the-icons)
+  ;; :defer 2)
 
 (use-package all-the-icons-dired
   :hook

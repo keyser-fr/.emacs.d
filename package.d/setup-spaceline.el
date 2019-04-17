@@ -50,6 +50,7 @@
   :config
   (spaceline-all-the-icons-theme)
   (setq
+
    ;; Icon Sets
    spaceline-all-the-icons-icon-set-modified 'chain
    spaceline-all-the-icons-icon-set-bookmark 'heart
@@ -60,8 +61,10 @@
    spaceline-all-the-icons-icon-set-git-stats 'diff-icons
    spaceline-all-the-icons-icon-set-flycheck-slim 'dots
    spaceline-all-the-icons-icon-set-sun-time 'rise/set
+
    ;; Separators
    spaceline-all-the-icons-separator-type 'arrow
+
    ;; Customize
    spaceline-all-the-icons-flycheck-alternate t
    spaceline-all-the-icons-highlight-file-name t
