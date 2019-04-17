@@ -17,7 +17,9 @@
 ;; docker: manager docker from emacs
 ;; https://github.com/Silex/docker.el
 (use-package docker
-  :defer t)
+  :defer t
+  :config
+  (docker-global-mode)) ;; manage docker containers
 
 ;; docker API interface
 ;; https://github.com/Silex/docker-api.el

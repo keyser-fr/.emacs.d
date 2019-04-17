@@ -72,7 +72,7 @@ emacs -q -f dired
 
 ### Exec docker container locally / remotely
 
-* [Tramp with SSH & Docker](https://afsmnghr.github.io/emacs/tramp-with-ssh-and-docker "Tramp with SSH & Docker")
+* [Tramp with SSH & Docker](https://www.emacswiki.org/emacs/TrampAndDocker "Tramp with SSH & Docker")
 
 ```lisp
 C-x C-f /docker:container:/etc/passwd RET ;; locally use
