@@ -130,6 +130,19 @@ cd /ssh:<remote_host>:<path> [RET]
 
 ## 8. Tips <a name="tips"></a>
 
+### Start emacs in fullscreen
+
+``` bash
+emacs -mm # see 'man emacs'
+```
+
+### Start emacs dired-mode in terminal (-nw: no-window) / window wihout load init.el (-q)
+
+``` bash
+emacs -q -nw -f dired
+emacs -q -f dired
+```
+
 ### Disabled all packages
 
 ``` bash
@@ -141,3 +154,4 @@ for file in ~/.emacs.d/package.d/setup-*.el; do mv ${file} ${file}.dis; done
 ``` bash
 for file in ~/.emacs.d/package.d/setup-*.el.dis; do mv ${file} ${file%.dis}; done
 ```
+
