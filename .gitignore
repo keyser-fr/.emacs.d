@@ -16,6 +16,7 @@ transient/
 
 # Ignore generated files
 .last-package-update-day
+.mc-lists.el
 bm-repository
 org-clock-save.el
 projectile.cache
