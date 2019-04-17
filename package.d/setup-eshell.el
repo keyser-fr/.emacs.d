@@ -46,10 +46,11 @@
   (add-hook 'eshell-mode-hook
 	    (lambda ()
 	      (eshell/alias "e" "find-file $1")
-	      (eshell/alias "ff" "find-file $1")
 	      (eshell/alias "emacs" "find-file $1")
 	      (eshell/alias "ee" "find-file-other-window $1")
-
+	      (eshell/alias "ff" "find-file $1")
+	      (eshell/alias "fw" "find-file-other-window $1")
+	      (eshell/alias "fr" "find-file-other-frame $1")
 	      (eshell/alias "gd" "magit-diff-unstaged")
 	      (eshell/alias "gds" "magit-diff-staged")
 	      (eshell/alias "d" "dired $1")
@@ -213,9 +214,11 @@ that it could run certain commands) in order to make a prettier,
 more-helpful local prompt."
   (interactive)
   (let* ((pwd        (eshell/pwd))
+         ;; (directory (split-directory-prompt
+         ;;             (pwd-shorten-dirs
+         ;;              (pwd-replace-home pwd))))
          (directory (split-directory-prompt
-                     (pwd-shorten-dirs
-                      (pwd-replace-home pwd))))
+		     (pwd-replace-home pwd)))
          (parent (car directory))
          (name   (cadr directory))
          (branch (curr-dir-git-branch-string pwd))
@@ -232,23 +235,23 @@ more-helpful local prompt."
 
     ;; http://ergoemacs.org/emacs/emacs_n_unicode.html
     (concat
-     ;; (propertize "⟣─ "    'face for-bars)
-     (propertize "┌ "     'face for-bars)
-     (propertize parent   'face for-parent)
-     (propertize name     'face for-dir)
+     ;; (propertize "⟣─ "  'face for-bars)
+     (propertize "┌ "   'face for-bars)
+     (propertize parent 'face for-parent)
+     (propertize name   'face for-dir)
      (when branch
-       (concat (propertize " ── "    'face for-bars)
-               (propertize branch   'face for-git)))
+       (concat (propertize " ── " 'face for-bars)
+               (propertize branch 'face for-git)))
      (when ruby
        (concat (propertize " ── " 'face for-bars)
                (propertize ruby   'face for-ruby)))
      (when python
        (concat (propertize " ── " 'face for-bars)
                (propertize python 'face for-python)))
-     (propertize "\n"     'face for-bars)
+     (propertize "\n" 'face for-bars)
      (propertize "↳ " 'face (if (= (user-uid) 0) `(:weight ultra-bold :foreground "red") `(:weight ultra-bold)))
      (propertize (if (= (user-uid) 0) "#" "$") 'face `(:weight ultra-bold))
-     (propertize " "    'face `(:weight bold))
+     (propertize " "  'face `(:weight bold))
      )))
 
 (setq-default eshell-prompt-function #'eshell/eshell-local-prompt-function)

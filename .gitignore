@@ -16,6 +16,7 @@ transient/
 
 # Ignore generated files
 bm-repository
+projectile.cache
 projectile-bookmarks.eld
 recentf
 smex-items

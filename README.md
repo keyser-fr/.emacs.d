@@ -72,7 +72,7 @@ M-x list-packages
 
 ## 6. Eshell <a name="eshell"></a>
 
-* [Eshell](https://github.com/howardabrams/dot-files/blob/master/emacs-eshell.org "Eshell")
+* [Eshell Setup](https://github.com/howardabrams/dot-files/blob/master/emacs-eshell.org "Eshell Setup")
 
 - Start eshell in terminal wihout load init.el
 
@@ -101,7 +101,7 @@ cd /ssh:<remote_host>:<path> [RET]
 
 #### Manuals
 
-* [Manual #1](http://www.linux-france.org/~pmartin/article/appli/emacs/manuel/html/index.html "Manual #1")
+* [Manual](http://www.linux-france.org/~pmartin/article/appli/emacs/manuel/html/index.html "Manual")
 
 #### Cheat Sheets
 
@@ -112,7 +112,7 @@ cd /ssh:<remote_host>:<path> [RET]
 #### Themes
 
 * [Themes #1](https://pawelbx.github.io/emacs-theme-gallery "Themes #1")
-* [Themes #1](https://peach-melpa.org "Themes #2")
+* [Themes #2](https://peach-melpa.org "Themes #2")
 
 #### Customize
 
