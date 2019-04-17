@@ -72,7 +72,21 @@ M-x list-packages
 
 ## 6. Eshell <a name="eshell"></a>
 
-- [Eshell](https://github.com/howardabrams/dot-files/blob/master/emacs-eshell.org "Eshell")
+* [Eshell](https://github.com/howardabrams/dot-files/blob/master/emacs-eshell.org "Eshell")
+
+- Start eshell in terminal wihout load init.el
+
+```bash
+emacs -Q -q -nw --eval '(eshell)'
+emacs -Q -q -nw -f eshell
+```
+
+- Start eshell in emacs window
+
+```bash
+emacs -q -f eshell # Don't load init file.
+emacs -f eshell # Load init file
+```
 
 - Use Tramp with eshell
 
