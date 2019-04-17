@@ -20,7 +20,7 @@ There are two things you can do about this warning:
   ;; Comment/uncomment these lines to enable/disable "ELPA", "MELPA" and "MELPA Stable" as desired
   ;; (add-to-list 'package-archives (cons "elpa" (concat proto "://elpa.gnu.org/packages/")) t)
   ;; (add-to-list 'package-archives (cons "marmalade" (concat proto "://marmalade-repo.org/packages/")) t)
-  (add-to-list 'package-archives (cons "org" (concat proto "://orgmode/elpa/")) t)
+  ;; (add-to-list 'package-archives (cons "org" (concat proto "://orgmode/elpa/")) t)
   ;; (add-to-list 'package-archives (cons "melpa-stable" (concat proto "://stable.melpa.org/packages/")) t)
   (add-to-list 'package-archives (cons "melpa" (concat proto "://melpa.org/packages/")) t)
   (when (< emacs-major-version 24)

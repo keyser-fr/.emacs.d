@@ -15,7 +15,9 @@ eshell/
 transient/
 
 # Ignore generated files
+.last-package-update-day
 bm-repository
+org-clock-save.el
 projectile.cache
 projectile-bookmarks.eld
 recentf
