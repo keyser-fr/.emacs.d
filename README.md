@@ -9,7 +9,12 @@
 - [6. Eshell Mode](#eshell-mode)
 - [7. Links](#links)
 - [8. To See](#to-see)
-  - [8.1. Packages](#to-see_packages)
+  - [8.1. Manuals](#to-see_manuals)
+  - [8.2. Cheat Sheets](#to-see_cheat-sheets)
+  - [8.3. Themes](#to-see_themes)
+  - [8.4. Customize](#to-see_customize)
+  - [8.5. Eshell](#to-see_eshell)
+  - [8.6. Modes](#to-see_modes)
 - [9. Tips](#tips)
 
 <!-- /TOC -->
@@ -116,33 +121,31 @@ cd /ssh:<remote_host>:<path> RET
 
 ## 8. To see <a name="to-see"></a>
 
-### 8.1. Packages <a name="to-see_packages"></a>
-
-#### Manuals
+### 8.1. Manuals <a name="to-see_manuals"></a>
 
 * [Manual](http://www.linux-france.org/~pmartin/article/appli/emacs/manuel/html/index.html "Manual")
 
-#### Cheat Sheets
+### 8.2. Cheat Sheets <a name="to-see_cheat-sheets"></a>
 
 * [Cheat Sheet #1](https://ccrma.stanford.edu/guides/package/emacs/emacs.html "Cheat Sheet #1")
 * [Cheat Sheet #2](https://courses.cs.washington.edu/courses/cse351/16wi/sections/1/Cheatsheet-emacs.pdf "Cheat Sheet #2")
 * [Cheat Sheet #3](https://lea-linux.org/documentations/Software-soft_edit-emacs "Cheat Sheet #3")
 
-#### Themes
+### 8.3. Themes <a name="to-see_themes"></a>
 
 * [Themes #1](https://pawelbx.github.io/emacs-theme-gallery "Themes #1")
 * [Themes #2](https://peach-melpa.org "Themes #2")
 
-#### Customize
+### 8.4. Customize <a name="to-see_customize"></a>
 
 * [Slemaguer emacs configuration](http://www.coli.uni-saarland.de/~slemaguer/emacs/main.html "Slemaguer emacs configuration")
 
-#### Eshell
+### 8.5. Eshell <a name="to-see_eshell"></a>
 
 * [GNU Emacs Eshell](https://www.gnu.org/software/emacs/manual/html_mono/eshell.html "GNU Emacs Eshell")
 * [Mastering Eshell](https://www.masteringemacs.org/article/complete-guide-mastering-eshell "Mastering Eshell")
 
-#### Modes
+### 8.6. Modes <a name="to-see_modes"></a>
 
 * [Org-mode](https://www.orgmode.org/fr/index.html "Org-mode")
 * [Org-mode explain](https://linuxfr.org/news/org-mode-1-5-gerer-ses-notes-avec-gnu-emacs "Org-mode explain")
