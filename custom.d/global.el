@@ -1,8 +1,8 @@
-;;; custom --- Summary
+;;; global --- Summary
 
 ;;; Commentary:
 
-;; custom.el --- Custom configuration
+;; global.el --- Custom configuration
 
 ;;; Code:
 
@@ -42,6 +42,6 @@
 ;; Aliases
 (defalias 'yes-or-no-p 'y-or-n-p)
 
-(provide 'custom)
+(provide 'global)
 
-;;; custom.el ends here
+;;; global.el ends here
