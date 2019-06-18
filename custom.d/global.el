@@ -10,6 +10,8 @@
 (global-visual-line-mode 1) ;; human reading long line (carriage return)
 (global-font-lock-mode t) ;; enable syntaxic color
 (global-hl-line-mode) ;; highlight current line
+(set-face-background 'hl-line "#000001") ;; Set any color as the background face of the current line
+(set-face-foreground 'highlight nil) ;; To keep syntax highlighting in the current line
 (display-time-mode t) ;; time
 (set-language-environment "UTF-8") ;; language environnement encoding
 (set-default-coding-systems 'utf-8) ;; coding system encoding
