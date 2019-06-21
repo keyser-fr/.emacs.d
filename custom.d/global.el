@@ -12,6 +12,7 @@
 (global-hl-line-mode) ;; highlight current line
 (set-face-background 'hl-line "#000001") ;; Set any color as the background face of the current line
 (set-face-foreground 'highlight nil) ;; To keep syntax highlighting in the current line
+(set-face-attribute 'region nil :background "#666" :foreground "#ffffff") # highlight selected region
 (display-time-mode t) ;; time
 (set-language-environment "UTF-8") ;; language environnement encoding
 (set-default-coding-systems 'utf-8) ;; coding system encoding
